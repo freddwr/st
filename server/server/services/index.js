@@ -12,9 +12,36 @@ function createToken(user) {
         exp: moment().add(1, 'days').unix()
     }
 
-    jwt.encode(payload, config.SECRET_TOKEN);
+    return jwt.encode(payload, config.SECRET_TOKEN);
 }
 
 
+function decodeToken(token) {
+    const decoded = new Promise((resolve, reject) => {
+        try {
+            const payload = jwt.decode(token, config.SECRET_TOKEN);
 
-module.exports = createToken;
+            if (payload.exp < moment().unix()) {
+                reject({
+                    status: 401,
+                    message: 'el token expiro'
+                });
+            }
+
+            resolve(payload.sub);
+        } catch (err) {
+            reject({
+                status: 500,
+                message: 'invalid token'
+            });
+        }
+    });
+
+    return decoded;
+}
+
+
+module.exports = {
+    createToken,
+    decodeToken
+}
