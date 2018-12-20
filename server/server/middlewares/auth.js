@@ -3,7 +3,7 @@
 const services = require('../services');
 
 function isAuth(req, res, next) {
-    if (!res.headers.authorization) {
+    if (!req.headers.authorization) {
         return res.status(403).send({ message: 'no tiene autorizado esta ruta o dato' });
     }
 
