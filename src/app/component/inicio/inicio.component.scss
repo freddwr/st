@@ -1,0 +1,20 @@
+.main-header {
+    position: relative;
+    margin-top: 50px;
+    background: url(/assets/unsolotamanio3.jpg);
+    background-size: cover;
+    min-height :500px;
+  }
+  
+  .background-overlay {
+   position:absolute;
+    background: rgba(48, 51, 107,.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+  }
+
+//   .carousel-item{
+//       height: 500px;
+//   }
