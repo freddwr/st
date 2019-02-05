@@ -1,20 +1,58 @@
-.main-header {
-    position: relative;
-    margin-top: 50px;
-    background: url(/assets/unsolotamanio3.jpg);
-    background-size: cover;
-    min-height :500px;
-  }
+// .main-header {
+//     position: relative;
+//     margin-top: 50px;
+//     background: url(/assets/unsolotamanio3.jpg);
+//     background-size: cover;
+//     min-height :500px;
+//   }
   
-  .background-overlay {
-   position:absolute;
-    background: rgba(48, 51, 107,.7);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
+//   .background-overlay {
+//    position:absolute;
+//     background: rgba(48, 51, 107,.7);
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height:100%;
+//   }
+
+  .imgcarrusel{
+    height: 700px;
+      width: 100%;
+  }
+  .servicio h1{
+    text-align: center;
+    color:#ff2a2a;
+  }
+  .servicio span{
+      color: #ff2a2a;
+  }
+  .servicio button{
+    background: #e13d3a;
+    color: white;
+  }
+  .servicio p{
+      text-align: justify;
+  }
+  .servicio img{
+      width: 170px;
+      height:170px;
+  }
+  .qsomos{
+      background: url("/assets/qs1.jpg");
+      min-height: 600px;
+      background-size: cover;
+  }
+  .deg{
+      background: rgba(26, 25, 25, 0.7);
+      min-height: 600px;
   }
 
-//   .carousel-item{
-//       height: 500px;
-//   }
+  .deg .container{
+     
+      border:  rgba(121, 120, 120, 0.7) 10px double;
+      height: 500px;
+  }
+  .deg .container .row{
+      color:white;
+     text-align: justify;
+  }

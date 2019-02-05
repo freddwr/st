@@ -1,135 +1,145 @@
-<!-- carrusel ojo revisar -->
-<!-- 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/assets/unsolotamanio1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>titulo 1</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquid voluptas molestiae velit sapiente illo architecto expedit</p>
-          </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/assets/unsolotamanio2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>titulo 2</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquid voluptas molestiae velit sapiente illo architecto expedit</p>
-          </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/assets/unsolotamanio3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5>titulo 3</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquid voluptas molestiae velit sapiente illo architecto expedit</p>
-          </div>
-      </div>
+<ngb-carousel >
+  <ng-template ngbSlide>
+    <img src="../assets/unsolotamanio1.jpg" alt="Random first slide" class="imgcarrusel">
+    <div class="carousel-caption">
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Siguiente</span>
-    </a>
-  </div> -->
+  </ng-template>
+  <ng-template ngbSlide>
+    <img src="../assets/unsolotamanio2.jpg" alt="Random second slide" class="imgcarrusel">
+    <div class="carousel-caption">
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img src="../assets/unsolotamanio3.jpg" alt="Random third slide" class="imgcarrusel">
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
 
-<!-- HEADER -->
-<header class="main-header">
-    <div class="background-overlay text-white py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center justify-content-center align-self-center mt-5 ">
-            <h1>
-              this is the title or a phrase relate to the product
-            </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sit natus rerum obcaecati sed sapiente suscipit illum excepturi a officiis. Inventore tenetur sit, iste quisquam consectetur odit necessitatibus quod ab!</p>
-            <a href="#" class="btn btn-outline-secondary btn-lg text-white">
-              Read More
-            </a>
-          </div>
-          <div class="col-md-6">
-            <img src="/assets/pagresp2.png" class="img-fluid d-none d-sm-block mt-5" >
-          </div>
-        </div>
+<!-- servicios -->
+<div class="py-5 servicio">
+  <div class="container">
+    <h1 class="font-weight-bold">Ingeniería Informática a su Servicio</h1>
+    <div class="d-flex justify-content-center">
+        <p class="col-md-8 text-center">Consultoría informática especializada en Investigación y desarrollo de proyectos tecnológicos, aplicaciones móviles, aplicaciones web y aplicaciones interactivas </p>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-2 justify-content-center d-flex">
+        <img src="../assets/dw2.png" alt="" class="rounded-circle" >
+      </div>
+      <div class="col-md-4">
+        <span class="font-weight-bold">DISEÑO WEB</span>
+        <p>
+          Cualquier negocio actual necesita una información estructurada y de facil acceso, un panel de control desde el cual puedes controlar todo.
+        </p>
+        <button class="btn btn-sm">Leer mas..</button>
+      </div>
+      <div class="col-md-2 justify-content-center d-flex">
+          <img src="../assets/dg1.jpg" alt="" class="rounded-circle" >
+      </div>
+      <div class="col-md-4">
+        <span class="font-weight-bold">DISEÑO GRAFICO</span>
+          <p>
+              Diseño de Identidad, Logos, Tarjetas, Folletos, Flyer, Packaging, Catálogos. Tambien hacemos el diseño de personajes y mascotas para darle vida a su marca.
+          </p>
+          <button class="btn btn-sm">Leer mas..</button>
       </div>
     </div>
-  </header>
-  
-  <!-- una descripcion de los servicios -->
-  <div class="bg-dark py-5">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-4 ">
-                <div class="card center" style="width: 18rem;">
-                    <img src="/assets/pagresp.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/assets/pagresp.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/assets/pagresp.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
+    <div class="row mt-5">
+        <div class="col-md-2 justify-content-center d-flex">
+            <img src="../assets/st1.png" alt="" class="rounded-circle"  >
           </div>
-          <div class="row mt-4">
-              <div class="col-md-4 ">
-                  <div class="card" style="width: 18rem;">
-                      <img src="/assets/pagresp.jpg" class="card-img-top " alt="...">
-                      <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4 ">
-                  <div class="card" style="width: 18rem;">
-                      <img src="/assets/pagresp.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="card" style="width: 18rem;">
-                      <img src="/assets/pagresp.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                  </div>
-              </div>
+          <div class="col-md-4">
+            <span class="font-weight-bold">SOPORTE TECNICO</span>
+            <p>
+                Una vez que la web está finalizada es importante mantenerla actualizada, de nada sirve tener una web desactualizada, con contenidos obsoletos o con fallos debidos a los cambios en las tecnologías.
+            </p>
+            <button class="btn btn-sm">Leer mas..</button>
+          </div>
+          <div class="col-md-2 justify-content-center d-flex">
+              <img src="../assets/md2.jpg" alt="" class="rounded-circle" >
+          </div>
+          <div class="col-md-4">
+            <span class="font-weight-bold">MARKETING DIGITAL</span>
+              <p>
+                  Envíe correo masivo con la confiabilidad de que llegaran a bandeja de entra y obtendra estadísticas detalladas de su campaña personalizada.
+              </p>
+              <button class="btn btn-sm">Leer mas..</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+<!-- Quienes Somos -->
+<div class="qsomos">
+  <div class="deg py-5 d-flex align-items-center">
+      <div class="container">
+          <div class="row ">
+            <div class="col-md-8">
+              <h1 class="mt-5 font-weight-bold">Quienes Somos</h1>
+              <p class="mt-4">
+                  Ninguna empresa puede permitirse el lujo de no avanzar. Puede ser una empresa top hoy, pero del montón mañana, si no lo hace.
+                  La tecnología avanza cada año y nosotros nos adaptamos a ella, nuevos recursos, nuevos sistemas, nuevos lenguajes de programación, nuevas técnicas.
+                  Nos optimizamos en los procesos administrativos, desarrollando estrategias para cumplir y mejorar el entorno del sistema operativo y sus componentes en el software facilitándole la configuración y mantenimiento.
+              </p>
+            </div>
+            <div class="col-md-4"></div>
           </div>
         </div>
   </div>
-  <!-- Bienvenido -->
-  <div class="py-5">
+</div>
+
+<!-- Cualidades -->
+<div class="cualidades py-5">
     <div class="container">
-      <div class="row">
-          <div class="col-md-6 text-center justify-content-center align-self-center ">
-              <h1>Hola!</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ut illo laudantium in harum voluptatem molestias quos itaque optio dolorum, doloribus cupiditate consequuntur iure sit atque laboriosam qui, sint consectetur!</p>
-            </div>
-            <div class="col-md-6">
-              <img src="/assets/pagresp2.png" alt="" class="img-fluid d-none d-sm-block">
-            </div>
+        <h1>Nuestras Cualidades</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <h1>.1</h1>
+            <span>Calidad</span>
+            <p>Equipo formado por Ingenieros en Sistemas con experiencia en el sector.</p>
+          </div>
+          <div class="col-md-4">
+              <h1>.2</h1>
+              <span>Integridad</span>
+              <p>Cada proyecto que trabajamos lo enfocamos como si fuera nuestro, siempre recomendamos la mejor opción</p>
+          </div>
+          <div class="col-md-4">
+              <h1>.3</h1>
+              <span>Innovacion</span>
+              <p>A la vanguardia de las últimas tecnologías, le asesoraremos para mejorar su proyecto.</p>
+          </div>
+        </div>
       </div>
+</div>
+
+
+<!-- Contacto -->
+<div class="contacto py-5">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h1>¡Estamos en Contacto!</h1>
+            <h5>¡Esperamos comenzar un proyecto contigo!</h5>
+            <p>Trabajamos a nivel internacional por lo que no se preocupe por la dirección de su empresa. Podemos hacer una primera toma de contacto por Skype y por supuesto no tenemos problemas en desplazarnos</p>
+          </div>
+          <div class="col-md-4">
+            <span></span>
+            <span>TELEFONO</span>
+            <p>71935190</p>
+          </div>
+          <div class="col-md-4">
+              <span></span>
+              <span>EMAIL</span>
+              <p>mail@gmail.com</p>
+          </div>
     </div>
   </div>
-  
+</div>
