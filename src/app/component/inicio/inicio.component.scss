@@ -1,3 +1,4 @@
+// estilos de imagen
 // .main-header {
 //     position: relative;
 //     margin-top: 50px;
@@ -15,10 +16,33 @@
 //     height:100%;
 //   }
 
-  .imgcarrusel{
-    height: 700px;
-      width: 100%;
-  }
+//carrusel maso
+//   .imgcarrusel{
+//     height: 700px;
+//       width: 100%;
+//   }
+
+//video
+.video-container 
+{
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  overflow: hidden;
+ position: relative;
+}
+video.fillWidth {
+  width: 100%;
+  height: auto;
+}
+.j{
+    color: white;
+    position: absolute;
+    top:40%;
+    width: 100%;
+}
+
+
   .servicio h1{
     text-align: center;
     color:#ff2a2a;
@@ -55,4 +79,34 @@
   .deg .container .row{
       color:white;
      text-align: justify;
+  }
+  .cualidades .num{
+      font-size: 80px;
+      color: rgba(192, 190, 190, 0.7);
+  }
+
+  .cualidades .cua{
+      color: #ff2a2a;
+      text-align: center;
+  }
+
+  .cualidades span{
+    color: #ff2a2a;
+  }
+
+  .contacto{
+      background: url("/assets/qs2.png");
+      background-size: cover;
+      min-height: 500px;
+  }
+
+  .degc{
+    background: rgba(26, 25, 25, 0.7);
+    min-height: 500px;
+    color:white;
+  }
+
+  .degc .container{
+    border:  rgba(121, 120, 120, 0.7) 10px double;
+    height: 500px;
   }
