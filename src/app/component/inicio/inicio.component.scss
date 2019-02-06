@@ -25,24 +25,35 @@
 //video
 .video-container 
 {
-  top: 0%;
+  top: 60px;
   left: 0%;
-  width: 100%;
+ width: 100%;
+  height: 600px;
   overflow: hidden;
  position: relative;
 }
-video.fillWidth {
-  width: 100%;
-  height: auto;
-}
+
 .j{
     color: white;
     position: absolute;
-    top:40%;
+    top:30%;
     width: 100%;
+    height: 100%;
+}
+
+.j h1{
+    color: #ff0000;
+    font-size: 90px;
+}
+.j span{
+    color: white;
 }
 
 
+// servicio
+.servicio{
+    margin-top: 18px;
+}
   .servicio h1{
     text-align: center;
     color:#ff2a2a;
@@ -61,25 +72,38 @@ video.fillWidth {
       width: 170px;
       height:170px;
   }
+//   qsomos
   .qsomos{
       background: url("/assets/qs1.jpg");
-      min-height: 600px;
       background-size: cover;
   }
   .deg{
       background: rgba(26, 25, 25, 0.7);
-      min-height: 600px;
+      min-height: 500px;
   }
 
-  .deg .container{
-     
+  .filan{
       border:  rgba(121, 120, 120, 0.7) 10px double;
-      height: 500px;
   }
   .deg .container .row{
       color:white;
      text-align: justify;
   }
+  .ihtml{
+      width: 0%;
+  }
+  .fhtml{
+      width: 90%;
+  }
+  .animacion{
+      transition: all 2s ease .5s;
+  }
+  .iconc{
+    color: red;
+    font-size: 30px;
+  }
+
+//   cualidades
   .cualidades .num{
       font-size: 80px;
       color: rgba(192, 190, 190, 0.7);
@@ -96,8 +120,7 @@ video.fillWidth {
 
   .contacto{
       background: url("/assets/qs2.png");
-      background-size: cover;
-      min-height: 500px;
+      background-size: cover; 
   }
 
   .degc{
@@ -106,7 +129,14 @@ video.fillWidth {
     color:white;
   }
 
-  .degc .container{
+  .fila{
     border:  rgba(121, 120, 120, 0.7) 10px double;
-    height: 500px;
+  }
+
+  .icon{
+      color: red;
+      font-size: 30px;
+  }
+  .contc{
+      text-align: center;
   }
