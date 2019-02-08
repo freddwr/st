@@ -12,6 +12,7 @@ export class InicioComponent implements OnInit {
 
   ngOnInit() {
     document.getElementById("html").classList.toggle("fhtml");
+  
     // revizar luego la funcion scroll para las animaciones
   //   window.onscroll = function (){
   //     // Obtenemos la posicion del scroll en pantall

@@ -8,13 +8,21 @@ import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { InicioComponent } from './component/inicio/inicio.component';
 import { from } from 'rxjs';
+import { ServicioComponent } from './component/servicio/servicio.component';
+import { DwebComponent } from './component/dweb/dweb.component';
+import { StecnicoComponent } from './component/stecnico/stecnico.component';
+import { DgraficoComponent } from './component/dgrafico/dgrafico.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    InicioComponent
+    InicioComponent,
+    ServicioComponent,
+    DwebComponent,
+    StecnicoComponent,
+    DgraficoComponent
   ],
   imports: [
     BrowserModule,
