@@ -22,32 +22,36 @@
     </div>
   </ng-template>
 </ngb-carousel> -->
-<!-- <div class="vid">
-    <video src="../assets/fondorojo.mp4" autoplay loop poster="" ></video>
-    <div class="ing">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo a perferendis necessitatibus accusantium ratione amet, explicabo dolorum, tempore, accusamus voluptas itaque veritatis nulla pariatur omnis reiciendis praesentium libero velit.</p>
-    </div>
-    
-</div> -->
+
 
 <div class="video-container">
     <video id="video" preload="auto" muted="muted" autoplay="autoplay" loop="loop" class="visible-lg" height="auto">
        <source src="../assets/fondorojo.mp4" type="video/mp4; " />        
        Your browser does not support the video tag.
    </video>
-   <video src=""></video>
-   <div class="j">
+   <div class="titulo">
       <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1> <span>XXXXX</span> SOFT</h1>
-            </div>
-            <div class="col-md-4 d-none d-md-block">
-              <P>Contactanos a 7589634</P>
+              <h1 class="font-weight-bold"> <span>XXXXX</span></h1>
+              <h1 class="font-weight-bold">SOFT</h1>
+              <h3>Su socio Tecnologico en Investigacion y Desarrollo</h3>
             </div>
           </div>
+      </div>
+    </div>
+    <div class="titulo2">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3 d-none d-md-block text-center py-5" style="border: white 3px double">
+                <h5 class="font-weight-bold">7589634</h5>
+                <P>Estamos preparados para iniciar tu proyecto llamanos ahora
+               </P>
+               <span style="color:red">¡Llamanos ya!</span>
+            </div>
         </div>
       </div>
+    </div>
 </div>
 
 
@@ -68,7 +72,7 @@
         <p>
           Cualquier negocio actual necesita una información estructurada y de facil acceso, un panel de control desde el cual puedes controlar todo.
         </p>
-        <button class="btn btn-sm" >Leer mas..</button>
+        <button class="btn btn-sm" routerLink="/dweb">Leer mas..</button>
       </div>
       <div class="col-md-2 justify-content-center d-flex">
           <img src="../assets/dg1.jpg" alt="" class="rounded-circle img-fluid" >
@@ -78,7 +82,7 @@
           <p>
               Diseño de Identidad, Logos, Tarjetas, Folletos, Flyer, Packaging, Catálogos. Tambien hacemos el diseño de personajes y mascotas para darle vida a su marca.
           </p>
-          <button class="btn btn-sm">Leer mas..</button>
+          <button class="btn btn-sm" routerLink="/dgrafico">Leer mas..</button>
       </div>
     </div>
     <div class="row mt-5 mb-5">
@@ -90,7 +94,7 @@
             <p>
                 Una vez que la web está finalizada es importante mantenerla actualizada, de nada sirve tener una web desactualizada, con contenidos obsoletos o con fallos debidos a los cambios en las tecnologías.
             </p>
-            <button class="btn btn-sm">Leer mas..</button>
+            <button class="btn btn-sm" routerLink="/stecnico">Leer mas..</button>
           </div>
           <div class="col-md-2 justify-content-center d-flex">
               <img src="../assets/md2.jpg" alt="" class="rounded-circle img-fluid" >
@@ -107,7 +111,7 @@
 </div>
 
 <!-- Quienes Somos -->
-<div class="qsomos">
+<div class="qsomos" id="nosotros">
   <div class="deg d-flex align-items-center">
       <div class="container">
           <div class="row filan py-5">
@@ -144,6 +148,7 @@
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger js" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
                   </div>
               </div>
+              <button class="btn bg-danger">Leer mas..</button>
             </div>
           </div>
         </div>
@@ -176,7 +181,7 @@
 
 
 <!-- Contacto -->
-<div class="contacto  mb-5">
+<div class="contacto  mb-5" id="contacto">
   <div class="degc">
       <div class="container py-5">
           <div class="row fila" >

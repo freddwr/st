@@ -1,0 +1,31 @@
+// estilos de imagen
+.main-header {
+    position: relative;
+    // margin-top: 50px;
+    background: url(/assets/probando2.jpg);
+    background-size: cover;
+    min-height :400px;
+  }
+  
+  .background-overlay {
+   position:absolute;
+    // background: rgba(95, 59, 59, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+  }
+
+
+.titulo h1{
+    text-align: center;
+    color: #ff2a2a;
+}
+.card{
+    -webkit-box-shadow: 5px 11px 14px -5px rgba(194,192,192,1);
+-moz-box-shadow: 5px 11px 14px -5px rgba(194,192,192,1);
+box-shadow: 5px 11px 14px -5px rgba(194,192,192,1);
+}
+.card-title{
+  color: #ff2a2a;
+}
