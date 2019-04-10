@@ -13,6 +13,7 @@ import { DwebComponent } from './component/dweb/dweb.component';
 import { StecnicoComponent } from './component/stecnico/stecnico.component';
 import { DgraficoComponent } from './component/dgrafico/dgrafico.component';
 import { TecnologiaComponent } from './component/tecnologia/tecnologia.component';
+import { BeneficioComponent } from './component/beneficio/beneficio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TecnologiaComponent } from './component/tecnologia/tecnologia.component
     DwebComponent,
     StecnicoComponent,
     DgraficoComponent,
-    TecnologiaComponent
+    TecnologiaComponent,
+    BeneficioComponent
   ],
   imports: [
     BrowserModule,
